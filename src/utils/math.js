@@ -12,6 +12,11 @@
 function add(a, b) {
   // TODO: Implement addition
   // Hint: Return the sum of a and b
+
+  let result;
+  result = a + b;
+  
+  return result;
 }
 
 /**
@@ -23,6 +28,11 @@ function add(a, b) {
 function subtract(a, b) {
   // TODO: Implement subtraction
   // Hint: Return a minus b
+
+  let result;
+  result = a - b;
+  
+  return result;
 }
 
 /**
@@ -34,6 +44,11 @@ function subtract(a, b) {
 function multiply(a, b) {
   // TODO: Implement multiplication
   // Hint: Return the product of a and b
+
+  let result;
+  result = a * b;
+  
+  return result;
 }
 
 /**
@@ -46,6 +61,16 @@ function divide(a, b) {
   // TODO: Implement division
   // Hint: Check if b is zero first to avoid division by zero error
   // Return an appropriate value or throw an error if b is zero
+
+  let result;
+  if (b == 0) {
+    console.log("Invalid number");
+
+    return;
+  }
+  result = a / b;
+  
+  return result;
 }
 
 /**
@@ -57,6 +82,11 @@ function divide(a, b) {
 function power(base, exponent) {
   // TODO: Implement exponentiation
   // Hint: Use Math.pow() or the ** operator
+
+  let result;
+  result = Math.pow(base, exponent);
+
+  return result;
 }
 
 // Export all functions
